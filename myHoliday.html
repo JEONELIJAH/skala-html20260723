@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>holiday</title>
+    <style>
+        :root { font-family: "Noto Sans KR", Arial, sans-serif; --bg:#f5f7ff; --line:#d6dcff; --ok:#2d8cff; }
+        body { margin:0; min-height:100vh; display:flex; align-items:center; justify-content:center; background:var(--bg); }
+        .card { width:min(560px,92vw); background:white; border-radius:18px; padding:22px; box-shadow:0 10px 30px rgba(0,0,0,.08); }
+        h1 { margin:0 0 12px; font-size:1.4rem; }
+        .meta { color:#666; margin-bottom:16px; }
+        ul { list-style:none; padding:0; margin:0; }
+        li { display:flex; align-items:center; justify-content:space-between; gap:12px; padding:12px; margin:8px 0; border:1px solid var(--line); border-radius:12px; }
+        li.done { background:#f0f7ff; border-color:#9ed0ff; }
+        .time { color:#555; font-weight:600; min-width:70px; }
+    </style>
+</head>
+<body>
+    <section class="card">
+        <h1><b>🙌 나의 휴일 일과</b></h1>
+        <h2>☀️ 아침 일과</h2>
+        <ul>
+            <li><span class="time">08:30</span> <p>기상 후 스트레칭</p></li>
+            <li><span class="time">09:30</span> <p>아침 + <mark>모닝 커피</mark></p></li>
+            <li><span class="time">11:30</span> <p>공원 산책하기</p></li>
+        </ul>
+        <br>
+        <h2>🔅 오후 일과</h2>
+        <ul>
+            <li><span class="time">14:00</span> <p>도서관에서 <mark>독서하기</mark></p></li>
+            <li><span class="time">16:00</span> <p>헬스장에서 운동하기</p></li>
+            <li><span class="time">18:00</span> <p>저녁먹기</p></li>
+        </ul>
+        <br>
+        <h2>🌕 저녁 일과</h2>
+        <ul>
+            <li><span class="time">19:00</span> <p>강아지 산책하기</p></li>
+            <li><span class="time">21:00</span> <p><mark>영화</mark> 감상하기</p></li>
+            <li><span class="time">23:00</span> <p>잠 자기</p></li>
+        </ul>
+        <br>
+        <p>휴일 버전 작성일: 2026년 7월</p>
+    </section>
+</body>
+</html>
