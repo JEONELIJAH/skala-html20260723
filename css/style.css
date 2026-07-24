@@ -40,6 +40,8 @@ h2 {
   color: white;
   padding: 8px 12px;
   margin-bottom: 12px;
+  border-radius: 10px;
+  background-color: rgba(227, 230, 192, 0.121);
 }
 
 a {
@@ -56,6 +58,7 @@ a:hover {
   border-bottom-color: yellow;
 }
 
+
 table, th, td {
   border: 1px solid #b9b9b9;
   border-collapse: collapse;
@@ -67,11 +70,11 @@ img {
   border-radius: 12px;
 }
 
-aside {
+/* aside {
   padding: 24px;
   border-radius: 10px;
   margin: 0;
-}
+} */
 
 .container {
   width: 100%;
@@ -104,8 +107,70 @@ aside {
   display: block;
 }
 
-@media (max-width: 767px) {
+.index-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(180px, 1fr);
+  gap: 24px;
+  align-items: start;
+}
+
+fieldset {
+  border: 1px solid rgb(189, 214, 184);
+  border-radius: 8px;
+  padding: 24px 28px;
+  margin: 0 0 20px;
+  background-color: rgba(212, 216, 167, 0.125);
+}
+
+fieldset legend {
+  padding: 0 10px;
+  color: gold;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+input[type="text"],
+input[type="date"],
+select {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid rgb(189, 214, 184);
+  border-radius: 8px;
+  min-height: 44px;
+}
+
+.nav {
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.nav li {
+    font-size: 18px; 
+}
+.nav li a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+
+@media (max-width: 786px) {
   .trip-grid {
     grid-template-columns: 1fr;
+  }
+  .index-grid {
+    grid-template-columns: 1fr;
+  }
+  .nav {
+    flex-direction: column;
+    align-items: stretch;
   }
 }
