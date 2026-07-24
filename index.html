@@ -8,13 +8,33 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+<style>
+    .nav {
+        background-color: rgba(197, 215, 156, 0.126); 
+        list-style-type: none; 
+        margin: 0; 
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .nav li {
+        font-size: 18px; 
+    }
+    .nav li a {
+        display: block;
+        padding: 15px;
+        text-decoration: none;
+    }
+</style>
 </head>
 <body>
     <h1>🛸 전우진의 유니버스 🚀</h1>
     <p>저의 프로필, 학습 내용, 여행 기록을 모아둔 Hub 페이지입니다.</p>
     <h2>📁 바로가기 메뉴</h2>
     <nav>
-        <ul>
+        <ul class="nav">
             <li><a href="html/myProfile.html">소개 (Profile)</a></li>
             <li><a href="html/myClass.html">수업 시간표 (Class)</a></li>
             <li><a href="html/myHoliday.html">휴일 계획 (Holiday)</a></li>
