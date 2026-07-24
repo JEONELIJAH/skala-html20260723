@@ -56,6 +56,13 @@ a:hover {
   border-bottom-color: yellow;
 }
 
+table, th, td {
+  border: 1px solid #b9b9b9;
+  border-collapse: collapse;
+  padding: 12px;
+  text-align: center;
+}
+
 img {
   border-radius: 12px;
 }
