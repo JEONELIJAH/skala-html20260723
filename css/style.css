@@ -99,6 +99,10 @@ img {
   text-align: center;
 }
 
+.trip-card:hover {
+  box-shadow: 0 12px 28px rgba(209, 211, 184, 0.599);
+}
+
 .trip-media {
   width: 100%;
   aspect-ratio: 5 / 5;
