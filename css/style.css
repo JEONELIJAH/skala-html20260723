@@ -56,6 +56,7 @@ a:hover {
   color: yellow;
   border-bottom-style: solid;
   border-bottom-color: yellow;
+  transition: 0.5s;
 }
 
 
@@ -140,12 +141,16 @@ fieldset legend {
 
 input[type="text"],
 input[type="date"],
+input[type="submit"],
+input[type="reset"],
+textarea,
 select {
   width: 100%;
   padding: 12px 14px;
   border: 1px solid rgb(189, 214, 184);
   border-radius: 8px;
   min-height: 44px;
+  font-family: "Gugi", sans-serif;
 }
 
 .nav {
@@ -164,6 +169,27 @@ select {
     display: block;
     padding: 15px;
     text-decoration: none;
+}
+
+button {
+  font-family: "Gugi", sans-serif;
+  background-color: rgba(173, 181, 253, 0.258);
+  color: #e9e9e8;
+  margin-bottom: 5px;
+  text-align: center;
+  width: 100%;
+  max-width: 700px;
+  display: flex;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px;
+}
+
+button:hover {
+  box-shadow: 0 3px 3px rgba(77, 98, 255, 0.599);
+  color: rgba(0, 2, 6, 0.918);
+  background-color: rgba(249, 250, 255, 0.807);
+  transition: 0.5s;
 }
 
 @media (max-width: 786px) {
