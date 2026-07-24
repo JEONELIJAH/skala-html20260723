@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --text: aliceblue;
+    --bg-color:
+        radial-gradient(circle at 20% 20%, darkslateblue 0%, transparent 35%),
+        radial-gradient(circle at 80% 0%, royalblue 0%, transparent 40%),
+        linear-gradient(180deg, midnightblue 0%, black 100%);
+    --link: skyblue;
+}
+
+.container {
+    width: min
+}
+
+body {
+  margin: 0;
+  padding: 24px;
+  font-family: "Gugi", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5;
+  color: var(--text);
+  background: var(--bg-color);
+}
+
+h1 {
+  font-size: 2.5em;
+  color: lightyellow;
+  padding: 12px 16px;
+  background: rgba(227, 230, 192, 0.121);
+  border-radius: 10px;
+  margin-bottom: 16px;
+}
+
+h2 {
+  font-size: 1.875em;
+  color: white;
+  padding: 8px 12px;
+  margin-bottom: 12px;
+}
+
+a {
+  color: var(--link);
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-thickness: 2px;
+  border-bottom: 1px dashed var(--link);
+}
+
+a:hover {
+  color: yellow;
+  border-bottom-style: solid;
+  border-bottom-color: yellow;
+}
+
+img {
+  border-radius: 12px;
+}
+
+aside {
+  padding: 24px;
+  border-radius: 10px;
+  margin: 0;
+}
