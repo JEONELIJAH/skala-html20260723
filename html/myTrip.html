@@ -10,22 +10,34 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <audio controls autoplay>
-        <source src="/media/Nebulous.mp3" type="audio/mpeg">
-    </audio>
-    <hr>
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRem1G58IdrUtOooTBw3cqYKwyWVBF4NsVVszMsb_Wgeg&s=10" style="width:400px;height:400px;"/>
-    <p><b>화성 지표면(2024)</b></p>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png" style="width:400px;height:400px;"/>
-    <p><b>우주에서 바라본 화성 (2020)</b></p>
-    <img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2023/11/green_glow_in_the_martian_night_artist_s_impression/25188870-1-eng-GB/Green_glow_in_the_martian_night_artist_s_impression_pillars.png" style="width:400px;height:400px;"/>
-    <p><b>화성에서의 초록빛 (2023)</b></p>
+    <div class="container">
+        <audio controls autoplay>
+            <source src="/media/Nebulous.mp3" type="audio/mpeg">
+        </audio>
+        <hr>
 
-    <hr>
-    <h2>🚀 나의 여행 브이로그</h2>
-    <video width "320" height="240" controls>
-        <source src="https://assets.science.nasa.gov/content/dam/science/psd/mars/downloadable_items/4/8/48470_PIA25970.mp4">
-    </video>
-    <p><b>멋진 이륙 혹은 착륙</b></p>
+        <div class="trip-grid">
+            <div class="trip-card">
+                <img class="trip-media" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRem1G58IdrUtOooTBw3cqYKwyWVBF4NsVVszMsb_Wgeg&s=10"/>
+                <p><b>화성 지표면(2024)</b></p>
+            </div>
+            <div class="trip-card">
+                <img class="trip-media" src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Mars_-_August_30_2021_-_Flickr_-_Kevin_M._Gill.png"/>
+                <p><b>우주에서 바라본 화성 (2020)</b></p>
+            </div>
+            <div class="trip-card">
+                <img class="trip-media" src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2023/11/green_glow_in_the_martian_night_artist_s_impression/25188870-1-eng-GB/Green_glow_in_the_martian_night_artist_s_impression_pillars.png"/>
+                <p><b>화성에서의 초록빛 (2023)</b></p>
+            </div>
+  
+        </div>
+
+        <hr>
+        <h2>🚀 나의 여행 브이로그</h2>
+        <video width "320" height="240" controls>
+            <source src="https://assets.science.nasa.gov/content/dam/science/psd/mars/downloadable_items/4/8/48470_PIA25970.mp4">
+        </video>
+        <p><b>멋진 이륙 혹은 착륙</b></p>
+    </div>
 </body>
 </html>
