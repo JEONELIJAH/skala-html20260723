@@ -65,3 +65,36 @@ aside {
   border-radius: 10px;
   margin: 0;
 }
+
+.container {
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+.trip-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.trip-card {
+  background: rgba(208, 214, 147, 0.487);
+  border: 1px solid rgb(208, 214, 147);
+  border-radius: 14px;
+  padding: 12px;
+  text-align: center;
+}
+
+.trip-media {
+  width: 100%;
+  aspect-ratio: 5 / 5;
+  object-fit: cover;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 767px) {
+  .trip-grid {
+    grid-template-columns: 1fr;
+  }
+}
